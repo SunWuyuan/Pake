@@ -4,6 +4,11 @@
     "version": "1.0.0"
   },
   "tauri": {
+      "windows": [
+    {
+      "decorations": false
+    }
+  ]
     "security": {
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
@@ -39,11 +44,6 @@
         "startDragging": true,
       }
     },
-  "windows": [
-      {
-        "decorations": false
-      }
-    ]
   },
   "build": {
     "withGlobalTauri": true,
