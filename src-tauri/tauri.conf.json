@@ -8,7 +8,7 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
+          "domain": "ourworld.wuyuan.dev",
           "windows": ["pake"],
           "enableTauriAPI": true
         }
@@ -26,8 +26,24 @@
       "fs": {
         "all": true,
         "scope": ["$DOWNLOAD/*"]
+      },
+      "window": {
+        "all": false,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true,
       }
-    }
+    },
+    "windows": [
+      {
+        "decorations": false
+      }
+    ]
   },
   "build": {
     "withGlobalTauri": true,
