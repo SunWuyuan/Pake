@@ -12,6 +12,7 @@
       "shortDescription": "",
       "targets": ["msi"],
       "windows": {
+        "decorations": false,
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
