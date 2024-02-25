@@ -38,7 +38,12 @@
         "unminimize": true,
         "startDragging": true,
       }
-    }
+    },
+  "windows": [
+      {
+        "decorations": false
+      }
+    ]
   },
   "build": {
     "withGlobalTauri": true,
